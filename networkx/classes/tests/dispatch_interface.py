@@ -100,7 +100,6 @@ class LoopbackDispatcher:
         else:
             # It would be nice to be able to convert _AntiGraph to a regular Graph
             # nx.algorithms.approximation.kcomponents._AntiGraph
-            # nx.algorithms.tree.branchings.MultiDiGraph_EdgeKey
             # nx.classes.tests.test_multidigraph.MultiDiGraphSubClass
             # nx.classes.tests.test_multigraph.MultiGraphSubClass
             G = graph.__class__()
